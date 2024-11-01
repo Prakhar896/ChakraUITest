@@ -20,10 +20,8 @@ const system = createSystem(defaultConfig, config)
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Provider>
-      <ChakraProvider value={system}>
+    <Provider value={system}>
         <App />
-      </ChakraProvider>
     </Provider>
   </StrictMode>,
 )
