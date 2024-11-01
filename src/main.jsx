@@ -9,8 +9,9 @@ const config = defineConfig({
   theme: {
     tokens: {
       colors: {
-        primaryColour: '#ff0000',
-        redColor: '#ff0000',
+        redColor: {
+          value: '#ff0000'
+        }
       },
     },
   },
