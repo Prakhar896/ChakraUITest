@@ -5,7 +5,7 @@ import { Box, Heading } from '@chakra-ui/react'
 function App() {
   return (
     <Box>
-      <Heading>Hi!</Heading>
+      <Heading color={'redColour'}>Hi!</Heading>
     </Box>
   )
 }
